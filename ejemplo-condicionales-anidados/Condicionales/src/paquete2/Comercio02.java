@@ -92,7 +92,7 @@ public class Comercio02 {
                 adicionalSeguro,
                 sueldoFinal);
         
-        
+       
     }
     
 }
