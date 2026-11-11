@@ -44,3 +44,6 @@ public class Ejemplo01 {
     }
 
 }
+//el usuario tiene que ingresar el numero 1 
+//depues se debe evaluar la condicion de la linea 27 
+//y se obtendra el resultado de trabajar con AND 
