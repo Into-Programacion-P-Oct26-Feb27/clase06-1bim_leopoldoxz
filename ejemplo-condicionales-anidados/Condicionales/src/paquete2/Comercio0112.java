@@ -86,7 +86,7 @@ public class Comercio0112 {
             if (productividad > 30 && productividad < 80) {
                 bono = 50;
                 sueldoFinal = adicionalSeguro + bono + sueldoBasico;
-                System.out.printf("Reporte de Empleado EL GRAN COMERCIO\n\n"
+                System.out.printf("Reporte de Empleado %S\n\n"
                         + "Nombres: %s\n"
                         + "Apellidos: %s\n"
                         + "Edad: %d\n"
@@ -96,6 +96,7 @@ public class Comercio0112 {
                         + "\tBono: $%.2f\n"
                         + "Adicional del seguro: $%.2f\n\n"
                         + "Sueldo final: $%.2f\n",
+                        nombreEmpresa,
                         nombre,
                         apellido,
                         edad,
@@ -110,7 +111,7 @@ public class Comercio0112 {
                 if (productividad >= 80 && productividad < 200) {
                     bono = 100;
                     sueldoFinal = adicionalSeguro + bono + sueldoBasico;
-                    System.out.printf("Reporte de Empleado EL GRAN COMERCIO\n\n"
+                    System.out.printf("Reporte de Empleado %S\n\n"
                             + "Nombres: %s\n"
                             + "Apellidos: %s\n"
                             + "Edad: %d\n"
@@ -120,6 +121,7 @@ public class Comercio0112 {
                             + "\tBono: $%.2f\n"
                             + "Adicional del seguro: $%.2f\n\n"
                             + "Sueldo final: $%.2f\n",
+                            nombreEmpresa,
                             nombre,
                             apellido,
                             edad,
@@ -134,7 +136,7 @@ public class Comercio0112 {
                     if (productividad >= 200 && productividad <= 500) {
                         bono = 200;
                         sueldoFinal = adicionalSeguro + bono + sueldoBasico;
-                        System.out.printf("Reporte de Empleado EL GRAN COMERCIO\n\n"
+                        System.out.printf("Reporte de Empleado %S\n\n"
                                 + "Nombres: %s\n"
                                 + "Apellidos: %s\n"
                                 + "Edad: %d\n"
@@ -144,6 +146,7 @@ public class Comercio0112 {
                                 + "\tBono: $%.2f\n"
                                 + "Adicional del seguro: $%.2f\n\n"
                                 + "Sueldo final: $%.2f\n",
+                                nombreEmpresa,
                                 nombre,
                                 apellido,
                                 edad,
@@ -157,7 +160,7 @@ public class Comercio0112 {
                         bono = 300;
                     }
                     sueldoFinal = adicionalSeguro + bono + sueldoBasico;
-                    System.out.printf("Reporte de Empleado EL GRAN COMERCIO\n\n"
+                    System.out.printf("Reporte de Empleado %S\n\n"
                             + "Nombres: %s\n"
                             + "Apellidos: %s\n"
                             + "Edad: %d\n"
@@ -167,6 +170,7 @@ public class Comercio0112 {
                             + "\tBono: $%.2f\n"
                             + "Adicional del seguro: $%.2f\n\n"
                             + "Sueldo final: $%.2f\n",
+                            nombreEmpresa,
                             nombre,
                             apellido,
                             edad,
