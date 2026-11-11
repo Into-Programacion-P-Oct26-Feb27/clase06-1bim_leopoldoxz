@@ -61,8 +61,7 @@ public class Comercio0112 {
         if (productividad <= 30) {
             bono = 25; // $25
             sueldoFinal = adicionalSeguro + bono + sueldoBasico;
-            System.out.printf("Reporte de Empleado\n\n"
-                    + "Empresa: %s\n"
+            System.out.printf("Reporte de Empleado %s\n\n"
                     + "Nombres: %s\n"
                     + "Apellidos: %s\n"
                     + "Edad: %d\n"
